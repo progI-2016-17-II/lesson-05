@@ -1,0 +1,52 @@
+---
+title: "2. Feladatok"
+subtitle: |
+  | Kurzus: Programozás I. 4. óra
+author: |
+  | Oktató: Balogh Kitti kttblgh@gmail.com
+date: "Időpont: 2017-03-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = '../../')
+```
+
+---
+
+## I. Feladat
+1. A ```lesson-05``` projekt ```src``` mappájában nyiss egy új R szkriptet ```prog1_lesson05_part02_Feladatok_functions.R``` néven! A következő feladatokban megírandó függvényeket ebbe a szkriptbe írd!
+2. A ```prog1_lesson05_part02_Feladatok.R``` szkriptben készíts fejlécet is, amiben megadod a következőket: 
+    - fájl címe (Feladatok)
+    - kurzus neve (Programozás I.)
+    - óra sorszáma (5. óra)
+    - neved
+    - dátum (2017-03-14)
+3. Figyelj, hogy kommentelj, és minél jobban betartsd a R kódírási stílusra vonatkozó irányelveket!
+
+---
+
+## II. Feladat
+1. Készíts egy 200 sorból és 100 oszlopból álló mátrixot standard normális eloszlásból vett értékekkel! Használd a ```set.seed``` függvényt a mátrix lérehozásakor az 567356 értékkel.
+2. Számítsd ki minden oszlop átlagát és standard eltérését for ciklussal! Az átlagok és a standard eltérések egy-egy vektorba kerüljenek!
+3. Most számítsd ki minden oszlop átlagát és standard eltérését az ```apply``` függvénycsalád egy tagjával! Az outputok itt is vektorok legyenek!
+4. Számítsd ki minden sor átlagát és standard eltérését for ciklussal! Az átlagok és a standard eltérések egy-egy vektorba kerüljenek!
+5. Számítsd ki minden sor átlagát és standard eltérését az ```apply``` függvénycsalád egy tagjával! Az outputok itt is vektorok legyenek!
+6. Számítsd ki a teljes mátrix átlagát és standard eltérését!
+
+---
+
+## III. Feladat
+1. Készíts egy 2 oszlopos data frame-et! Az első oszlop elemei legyenek: ```"c"```, ```"d"```, ```"c"```. Az oszlop neve legyen ```cd```  és legyen karakter típusú. A második oszlop elemei legyenek: ```"a"```, ```"b"```, ```"b"```. Az oszlop neve legyen ```ab``` és legyen karakter típusú.
+2. For ciklussal iterálj végig a data frame-en és írd felül a data frame értékét 1-re, ha az elem értéke ```"a"``` vagy ```"c"```, és 0-ra, ha az elem értéke ```"b"``` vagy ```"d"```! A data frame a felülírás után is maradjon data frame.
+3. Most az ```apply``` függvénycsalád egy tagjával írd felül a data frame értékeit ugyanezen elv szerint! A data frame a felülírás után is maradjon data frame.
+
+---
+
+## IV. Feladat
+1. Készíts egy listát, ami 3 vektorból áll. Mindhárom vektor legyen egy 50 elemű Poisson eloszlásból vett random minta, az első lambda = 5 paraméterrel, a második lambda = 9 paraméterrel, a harmadik lambda = 100 paraméterrel. Használd a ```set.seed``` függvényt a mátrix lérehozásakor a 14254 értékkel.
+2. Az ```apply``` függvénycsalád egy tagjával szedd ki minden vektor utolsó elemét és tedd egy listába!
+3. Szintén az ```apply``` függvénycsalád egy tagjával szedd ki minden vektor első 5 elemét, de vektor legyen az output!
+
+---
