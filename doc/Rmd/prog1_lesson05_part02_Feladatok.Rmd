@@ -47,6 +47,6 @@ knitr::opts_knit$set(root.dir = '../../')
 ## IV. Feladat
 1. Készíts egy listát, ami 3 vektorból áll. Mindhárom vektor legyen egy 50 elemű Poisson eloszlásból vett random minta, az első lambda = 5 paraméterrel, a második lambda = 9 paraméterrel, a harmadik lambda = 100 paraméterrel. Használd a ```set.seed``` függvényt a mátrix lérehozásakor a 14254 értékkel.
 2. Az ```apply``` függvénycsalád egy tagjával szedd ki minden vektor utolsó elemét és tedd egy listába!
-3. Szintén az ```apply``` függvénycsalád egy tagjával szedd ki minden vektor első 5 elemét, de vektor legyen az output!
+3. Szintén az ```apply``` függvénycsalád egy tagjával szedd ki minden vektor első 5 elemét, de mátrix legyen az output!
 
 ---
