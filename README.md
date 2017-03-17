@@ -26,6 +26,6 @@ Learn about the ```apply``` function family.
 	* Literature
 		
 * Part 2
-	* Excercises
+	* Exercises
 
 ---
